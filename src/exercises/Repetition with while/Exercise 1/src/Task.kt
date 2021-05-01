@@ -3,7 +3,7 @@ package repetitionWithWhileExercise1
 
 fun displayContent(character: String) {
     var num = 0
-    while (num != 3){
+    while (num != character.length){
         println(character[num])
         num++
     }
